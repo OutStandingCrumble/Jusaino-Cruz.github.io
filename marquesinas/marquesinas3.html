@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Marquesinas Personalizadas</title>
+
+    <style>
+        body{
+            background-color:black;
+            font-family:Arial, sans-serif;
+            color:white;
+        }
+
+        h1{
+            color:red;
+            text-align:center;
+        }
+
+        h2{
+            color:white;
+            padding:8px;
+            border-radius:5px;
+        }
+
+        marquee{
+            border:2px solid red;
+            padding:10px;
+            margin-bottom:15px;
+            background-color:red;
+            color:white;
+        }
+
+        a{
+            color:white;
+            font-weight:bold;
+            text-decoration:none;
+        }
+
+        img{
+            border-radius:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ejemplos de Marquesinas Personalizadas</h1>
+
+    <hr color="red">
+
+    <h2>Marquesina horizontal</h2>
+    <marquee scrollamount="8">
+        Texto moviéndose de izquierda a derecha
+    </marquee>
+
+    <h2>Marquesina horizontal inversa</h2>
+    <marquee direction="right" scrollamount="10">
+        Texto moviéndose de derecha a izquierda
+    </marquee>
+
+    <h2>Marquesina vertical hacia arriba</h2>
+    <marquee direction="up" height="150" scrollamount="4">
+        Texto que sube<br>
+        Línea 1<br>
+        Línea 2<br>
+        Línea 3
+    </marquee>
+
+    <h2>Marquesina vertical hacia abajo</h2>
+    <marquee direction="down" height="150" scrollamount="6">
+        Texto que baja<br>
+        Línea 1<br>
+        Línea 2<br>
+        Línea 3
+    </marquee>
+
+    <h2>Marquesina con rebote</h2>
+    <marquee behavior="alternate" scrollamount="15">
+        ¡Rebotando de un lado a otro!
+    </marquee>
+
+    <h2>Marquesina rápida</h2>
+    <marquee scrollamount="20">
+        Esta marquesina es muy rápida
+    </marquee>
+
+    <h2>Marquesina lenta</h2>
+    <marquee scrollamount="3">
+        Esta marquesina es más lenta
+    </marquee>
+
+    <h2>Marquesina con imágenes</h2>
+    <marquee behavior="alternate" scrollamount="8">
+        <img src="6f1gyb2d3rzf1.jpg" width="120" height="120">
+        <img src="33c47128b65d0a975edeb4aab5bc5bb5.jpg" width="120" height="120">
+        <img src="R.jpg" width="120" height="120">
+    </marquee>
+
+    <h2>Marquesina con texto y color</h2>
+    <marquee behavior="alternate">
+        Bienvenido a mi página web
+    </marquee>
+
+
+
+    <hr color="red">
+
+    <h3 style="text-align:center; color:red;">
+        Fin de la práctica
+    </h3>
+
+</body>
+</html>
